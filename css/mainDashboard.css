@@ -1,0 +1,43 @@
+.custom-navbar{
+    background-color: #363979 !important;
+}
+
+.college-logo{
+    width: 210px;
+    height: 60px;
+}
+
+.navbar-text-span{
+    font-size: 23px;
+}
+
+.tab-badge{
+    background-color: #D9D9D9;
+    width: 185px;
+    height: 60px;
+    border-radius: 55px;
+}
+
+.header{
+    background-color: #7C7FD4;
+    width: 356px;
+    height: 80px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: black;
+}
+
+.body{
+    background-color: #F0F0F0;
+    width: 356px;
+    height: 160px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.header b{
+    color: #F0F0F0;
+    font-size: x-large;
+    padding-left: 130px;
+    padding-top: 25px;
+}

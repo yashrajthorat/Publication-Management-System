@@ -1,0 +1,123 @@
+/* Styling the navigation bar */
+.custom-navbar {
+    background-color: #363979 !important;
+  }
+  
+  .college-logo {
+    width: 210px;
+    height: 60px;
+  }
+  
+  .navbar-text-span {
+    font-size: 23px;
+  }
+  /* End of styling of navigation bar */
+  
+  /* The sidebar menu */
+  .sidebar {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: #363979 !important;
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+    margin-top: 86px;
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* The button used to open the sidebar */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main {
+    transition: margin-left 0.5s; /* If you want a transition effect */
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {
+      padding-top: 15px;
+    }
+    .sidebar a {
+      font-size: 18px;
+    }
+  }
+  
+  .custom-sidenav-links {
+    font-size: 18px !important;
+    width: 210px;
+  }
+  
+  .custom-open-button {
+    background-color: #363979;
+  }
+  
+  .custom-branch-topic{
+    color: white;
+    font-size: 20px;
+  }
+  
+  .topic{
+    background-color: #F1F0F0;
+    width: 100%;
+    height: 60px;
+    padding-top: 5px;
+  }
+  
+  .main-topic{
+    font-size: 30px;
+  }
+
+  .branches-name{
+    font-size: 25px;
+  }
+
+  @media screen and (max-width: 991px) {
+    .sidebar {
+      margin-top: 57px;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .sidebar {
+      margin-top: 86px;
+    }
+  }
+  
+  .toggle-sidenav{
+    margin-top: 215px;
+  } 

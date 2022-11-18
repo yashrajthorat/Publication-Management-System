@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.custom-flex{
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    border: 1px solid black;
+    padding-left: 0;
+    margin-top: 130px;
+}
+
+.logo{
+    margin-left: -12px;
+    background-color: #363979;
+    width: 50%;
+    height: 374px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#college-logo{
+    width: 275px;
+    height: 84px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.logo-text{
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+
+.login-form{
+    width: 50%;
+}
+
+.form-text-1{
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.form-text-2{
+    font-size: 20px;
+}
+
+#loginBtn{
+    border: 1px solid black;
+    width: 130px;
+    font-size: 15px;
+    border-radius: 25px;
+}
+
+#resetBtn{
+    border: 1px solid black;
+    width: 130px;
+    font-size: 15px;
+    border-radius: 25px;
+}
+
+#password{
+    border-radius: 1px;
+}
