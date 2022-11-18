@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Login Page</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+    <!-- Google Icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/login.css">
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+</head>
+
+<body>
+    <!-- Start of Project -->
+    <div class="container custom-flex">
+        <div class="custom-flex-login-box">
+            <div class="d-flex justify-content-between">
+                <div class="logo">
+                    <center><img src="./img/collegeLogo.png" id="college-logo" alt=""></center>
+                    <span class="logo-text"><center>Publication <br>Management <br>System</center></span>
+                </div>
+                <div></div>
+                <div class="login-form mx-5">
+                    <div class="form-text mt-5">
+                    <center>
+                        <span class="form-text-1">Login</span> <br>
+                        <span class="form-text-2">Please login into your account</span>
+                    </center>
+                </div>
+                    <form class="main-login-form mt-3" action="./index.html">
+                        <center>
+                        <!-- Username input -->
+                        <div class="form-outline mb-4">
+                          <input type="username" id="user_name" class="form-control" />
+                          <label class="form-label" for="user_name">Username</label>
+                          <!-- <input type="text" name="" id=""> -->
+                        </div>                       
+                        <!-- Password input -->
+                         <div class="form-outline mb-4">
+                          <input type="password" id="user_password" class="form-control" />
+                          <label class="form-label" for="user_password" id="password-label">Password</label>
+                          <!-- <input type="password" name="" id="/"> -->
+                        </div>
+                    </center> 
+                        <div class="d-flex justify-content-around">
+                            <div class="login">
+                                <button type="submit" class="btn btn-light" id="loginBtn">Login</button>
+                            </div>
+                            <div></div>
+                            <div class="reset">
+                                <button type="reset" class="btn btn-light" id="resetBtn">Reset</button>
+                            </div>
+                        </div>
+                        <!-- 2 column grid layout for inline styling -->
+                        <div class="row mb-4 mt-3">
+                          <div class="col d-flex justify-content-center">
+                            <!-- Checkbox -->
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="form1Example3" checked />
+                              <label class="form-check-label" for="form1Example3"> Remember me </label>
+                            </div>
+                          </div>
+                      
+                          <div class="col">
+                            <!-- Simple link -->
+                            <a href="#!">Forgot password?</a>
+                          </div>
+                        </div>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Project -->
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+</body>
+
+</html>
